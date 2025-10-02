@@ -27,6 +27,6 @@ This repository provides the implementation for the paper **“Can Local Represe
    git clone https://github.com/nmanchev/lra-rnn.git
    cd lra-rnn```
    
-Install dependencies (e.g. via `pip install -r requirements.txt`).
+Install dependencies (e.g. via `conda env create -f environment.yml`).
 
 Use `gridsearch.py` to sweep over hyperparameters for best results.
