@@ -6,7 +6,7 @@ This repository provides the implementation for the paper **“Can Local Represe
 
 ## 📄 Paper
 
-- **Title**: Can Local Representation Alignment RNNs Solve Temporal Tasks?
+- **Title**: [Can Local Representation Alignment RNNs Solve Temporal Tasks?](https://arxiv.org/pdf/2504.13531)
 - **Authors**: Nikolay Manchev, Luis C. Garcia-Peraza-Herrera
 - **Abstract (short)**: Proposes and evaluates a local, target-propagation-based training method (LRA) for RNNs as an alternative to BPTT, explores gradient instabilities and introduces a gradient regularization to improve performance on temporal tasks.
 
@@ -28,5 +28,6 @@ This repository provides the implementation for the paper **“Can Local Represe
    cd lra-rnn```
    
 Install dependencies (e.g. via `conda env create -f environment.yml`).
+
 
 Use `gridsearch.py` to sweep over hyperparameters for best results.
